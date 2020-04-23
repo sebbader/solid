@@ -1,0 +1,18 @@
+{
+  "root": "C:\\Users\\sbader\\git\\solid\\bin\\data",
+  "port": "8443",
+  "serverUri": "https://localhost:8443",
+  "webid": true,
+  "mount": "/",
+  "configPath": "./config",
+  "configFile": "./config.json",
+  "dbPath": "./.db",
+  "sslKey": "/Users/sbader/.ssh/solid_dev/server.key",
+  "sslCert": "/Users/sbader/.ssh/solid_dev/server.crt",
+  "multiuser": false,
+  "server": {
+    "name": "SOLID Baseline Server",
+    "description": "",
+    "logo": ""
+  }
+}

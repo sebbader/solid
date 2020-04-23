@@ -7,7 +7,13 @@ const loadUpdateIndex = require('./updateIndex')
 const { spawnSync } = require('child_process')
 const path = require('path')
 
+//sba:
+const EvalUtils = require('../../lib/iot/EvalUtils')
+
 module.exports = function startCli (server) {
+  
+  var start = new Date() //sba
+
   program.version(getVersion())
 
   loadInit(program)
@@ -18,6 +24,12 @@ module.exports = function startCli (server) {
 
   program.parse(process.argv)
   if (program.args.length === 0) program.help()
+
+  // sba
+  var time = new Date() - start;
+  EvalUtils.program = program
+  var evaluation = new EvalUtils()
+  evaluation.sendEval({"start-time": time})
 }
 
 function getVersion () {

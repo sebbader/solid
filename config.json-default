@@ -1,6 +1,9 @@
 {
   "root": "./data",
   "port": "8443",
+  "evalserver": "http://ec2-18-195-167-141.eu-central-1.compute.amazonaws.com:19919/handleMeasurement",
+  "OPTevalserver": "http://localhost:19919/handleMeasurement",
+  "evalkey": "frnhfr//solid!!",
   "serverUri": "https://localhost:8443",
   "webid": true,
   "mount": "/",
