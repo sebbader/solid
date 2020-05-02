@@ -1,13 +1,25 @@
-# solid-server in Node
+# Baseline SOLID Server in NodeJS
 
-[![](https://img.shields.io/badge/project-Solid-7C4DFF.svg?style=flat-square)](https://github.com/solid/solid)
-[![Build Status](https://travis-ci.org/solid/node-solid-server.svg?branch=master&style=flat-square)](https://travis-ci.org/solid/node-solid-server)
-[![NPM Version](https://img.shields.io/npm/v/solid-server.svg?style=flat-square)](https://npm.im/solid-server)
-[![Gitter chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat-square)](http://gitter.im/solid/node-solid-server)
 
-> [Solid](https://github.com/solid) server in [NodeJS](https://nodejs.org/)
+This repository contains the SOLID prototype implementation. It heavily relies on the SOLID NodeJS reference implementation (credits to the SOLID developer community!) and has been extended with further evaluation facilities. The goal of the overall project is to use the advantages of the SOLID approach and introduce it into the IoT and Industry 4.0 community. This reference implementation was created to measure comparison performance KPIs for the SOLIOT project.
 
-`solid-server` lets you run a Solid server on top of the file-system. You can use it as a [command-line tool](https://github.com/solid/node-solid-server/blob/master/README.md#command-line-usage) (easy) or as a [library](https://github.com/solid/node-solid-server/blob/master/README.md#library-usage) (advanced).
+## Related Resources
+
+SOLIOT IoT server implementation: [SOLIOT on GitHub](https://github.com/sebbader/soliot)
+SOLID server implementation: [SOLID on GitHub](https://github.com/sebbader/solid) (this repository)
+Evaluation Data: [SOLIOT Performance Resources](https://github.com/sebbader/soliot_evaluation)
+
+
+
+## Team
+
+Contact: [Sebastian Bader](https://github.com/sebbader) ([email](mailto:sebastian.bader@iais.fraunhofer.de))
+
+
+ 
+
+
+
 
 ## Solid Features supported
 - [x] [Linked Data Platform](http://www.w3.org/TR/ldp/)
